@@ -39,7 +39,9 @@
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.ServiceName = "ComputerInfo";
+            this.serviceInstaller1.Description = "通益远程教育平台学习插件";
+            this.serviceInstaller1.DisplayName = "TongYi Online Learning Plugin";
+            this.serviceInstaller1.ServiceName = "TongYi Online Learning Plugin";
             this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             // 
             // ProjectInstaller
